@@ -4,6 +4,7 @@ Demonstrates a bug with TextInputEditText that hangs an espresso instrumentation
 For https://github.com/material-components/material-components-android/issues/502
 
 To run the test:
+
 gradlew -Pandroid.testInstrumentationRunnerArguments.class=com.jason.marks.textinputedittextbug.ExampleInstr
 umentedTest connectedAndroidTest
 
